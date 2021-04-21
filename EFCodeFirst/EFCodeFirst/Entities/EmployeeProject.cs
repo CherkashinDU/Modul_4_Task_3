@@ -5,7 +5,7 @@ namespace EFCodeFirst.Entities
     public class EmployeeProject
     {
         public int Id { get; set; }
-        public int Rate { get; set; }
+        public decimal Rate { get; set; }
         public DateTime StartedDate { get; set; }
 
         public int EmployeeId { get; set; }
